@@ -11,7 +11,7 @@ jobs:
   my_job:
     name: Deploy to Staging
     runs-on: ubuntu-latest
-    environment: production
+   
     steps:
       - name: Checkout Repository
         uses: actions/checkout@v3
